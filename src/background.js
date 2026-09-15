@@ -290,7 +290,7 @@ function resetContextMenu(showContextMenu) {
 }
 
 function createContextMenu() {
-	var cxContexts = ["page", "frame", "selection", "link", "editable", "image", "video", "audio"];
+	var cxContexts = ["page", "frame", "selection", "link", "editable", "image", "video", "audio", "browser_action"];
 	var cxTypeNormal = "normal";
 
 	createContextMenuItem("pratikabustt-cxm-top", cxTypeNormal, "Scroll To Top", cxContexts);
